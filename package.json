@@ -1,12 +1,16 @@
 {
-  "name": "aframe-boilerplate",
-  "description": "Boilerplate for creating WebVR scenes using A-Frame",
-  "version": "0.0.0",
+  "name": "aframe-hello-world-boilerplate",
+  "description": "Boilerplate with A-Frame's 'Hello, World!' of WebVR.",
+  "version": "0.3.0",
   "license": "MIT",
   "scripts": {
     "start": "budo --live --verbose --port 3000 --open",
     "deploy": "ghpages",
     "ghpages": "ghpages"
+  },
+  "repository" : {
+	  "type" : "git",
+	  "url" : "https://github.com/gregorholzmann/aframe-boilerplate"
   },
   "devDependencies": {
     "budo": "^7.0.0",
@@ -15,7 +19,16 @@
   "keywords": [
     "aframe",
     "aframe-example",
+    "aframe-boilerplate",
     "aframe-scene",
-    "aframe-boilerplate"
-  ]
+    "webvr",
+    "vr"
+  ],
+  "dependencies": {
+    "aframe": "^0.5.0",
+    "aframe-animation-component": "^3.2.5",
+    "aframe-event-set-component": "^3.0.2",
+    "aframe-layout-component": "^4.0.2",
+    "aframe-template-component": "^3.2.1"
+  }
 }
